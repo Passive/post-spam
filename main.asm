@@ -1,7 +1,7 @@
 format PE CONSOLE 4.0
 entry main
 
-include 'C:\Users\guysa\Desktop\Fasm\INCLUDE\win32a.inc'
+include '%fasminc%\win32a.inc'
 
 section '.code' executable readable writeable
 
